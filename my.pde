@@ -1,5 +1,4 @@
 /* @pjs preload="1234.jpg"; */
-
 PImage img;
 float x=0,v=0,a=0.25;
 
