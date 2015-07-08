@@ -1,10 +1,10 @@
-/* @pjs preload="./img/1234.jpg"; */
+/* @pjs preload="./data/1234.jpg"; */
 PImage img;
 float x=0,v=0,a=0.25;
 
 void setup(){
   size(500,500);
-  img = loadImage("./img/1234.jpg");
+  img = loadImage("./data/1234.jpg");
 }  
   
 void draw(){  
