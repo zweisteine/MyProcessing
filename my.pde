@@ -1,7 +1,7 @@
 /* @pjs preload="1234.jpg"; */
 PImage img;
 float x=0,v=0,a=0.25;
-int wait=1000, time;
+int wait=2000, time;
 void setup(){
   time = millis();
   size(500,500);
@@ -9,7 +9,7 @@ void setup(){
 }  
   
 void draw(){  
-  //if(millis() - time >= wait){
+  if(millis() - time >= wait){
 
   background(255,255,255);
   image(img,0,0-x*0.1,500,520);
@@ -31,4 +31,5 @@ void draw(){
   if(v>=10){
     v=-v-a;
   }  
+}
 }
